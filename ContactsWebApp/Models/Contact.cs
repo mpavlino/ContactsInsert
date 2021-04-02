@@ -4,8 +4,6 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
-//utrošeno vrijeme: 5 min
-
 namespace ContactsWebApp.Models
 {
     public class Contact

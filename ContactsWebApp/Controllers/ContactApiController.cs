@@ -6,8 +6,6 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-//utrošeno vrijeme: 15 min
-
 namespace ContactsWebApp.Controllers
 {
     [Route("api/[controller]")]

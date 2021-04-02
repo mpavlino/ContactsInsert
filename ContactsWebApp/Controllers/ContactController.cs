@@ -9,8 +9,6 @@ using System.Net.Http;
 using System.Text;
 using System.Threading.Tasks;
 
-//utrošeno vrijeme: 20-30 min
-
 namespace ContactsWebApp.Controllers
 {
     public class ContactController : Controller

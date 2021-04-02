@@ -5,13 +5,12 @@ using System.ComponentModel.DataAnnotations;
 using System.Linq;
 using System.Threading.Tasks;
 
-//utrošeno vrijeme: 20-30 min
-
 namespace ContactsWebApp.Models
 {
     public class UniqueEmailAttribute : ValidationAttribute
     {
-        //Dohvati email iz baze koji odgovara unesenom email-u u polju te ukoliko postoji zapis ispiši upozorenje/grešku.
+        //Provjera duplikata - Dohvati email iz baze koji odgovara unesenom email-u u polju
+        //te ukoliko postoji zapis ispiši upozorenje/grešku.
         protected override ValidationResult IsValid(
             object value, ValidationContext validationContext)
         {
